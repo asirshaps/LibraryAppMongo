@@ -1,0 +1,94 @@
+.signin{
+    
+    border: 2px solid black;
+    background-color: white;
+    padding: 30px;
+    width: fit-content;
+    margin: auto;
+    font-family: 'Oswald', sans-serif;
+}
+.h3{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;    
+}
+.signin #signin-button{
+    width: 54%;
+    background-color: dodgerblue;
+    color: white;
+    border: 1px solid dodgerblue;
+    text-align: center;
+}
+.navbar{
+    background-color: #151B8D;
+}
+.navbar .navbar-nav li a{
+    color:white !important;
+    font-family: 'Oswald', sans-serif;
+    
+}
+h1{
+    margin-left: 27px;
+    font-family: 'Oswald', sans-serif;
+}
+.connectwithus{
+    border-radius: 5px;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#twitter{
+    float: left;
+    background:#43C6DB;
+    padding: 5px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px ;
+    margin-left: 27px;
+    
+}
+#facebook{
+    float: left;
+    background: blue;
+    padding: 5px;
+}
+#google{
+    float: left;
+    background: red;
+    padding: 5px 5px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+
+}
+h4{
+    margin-left: 27px;
+    font-family: 'Oswald', sans-serif;
+     color:#625D5D !important;
+    
+}
+.everything{
+    background: #E5E4E2;
+    height: 100vh;
+    width: 100%;
+}
+#teams{
+    width: 80%;
+    background: white;    
+    margin-top: -90px;
+    min-height: 300px;
+    /* height: 100%; */
+    padding: 20px;
+    align-content: center;
+}
+#team{
+    padding-left: 10%;
+}
+footer{
+    /* position: absolute; */
+    /* margin-left: 10%; */
+    width: 100%;
+    bottom: 0;
+    padding: 50px 0;
+    background: #E5E4E2;
+}
+
+
