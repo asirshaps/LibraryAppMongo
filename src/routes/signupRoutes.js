@@ -12,13 +12,14 @@ signupRouter.get('/',function(req,res){
     });
     signupRouter.post('/newsignup',function(req,res){
         var item = {
-       fullname:  req.body.fullname,
-         email: req.body.email,
-          mobile: req.body.mobile,
-          gender: req.body.gender,
-          dob: req.body.dob,
-           username :req.body.username,
-           password :req.body.password
+        name:  req.body.name,
+        address: req.body.address,
+        emailid: req.body.mobile,
+        phoneno: req.body.gender,
+        password: req.body.dob,
+        confirmpassword :req.body.username,
+        dateofbirth :req.body.password,
+        gender:req.body.gender
         }  
        var signup =  Signupdata(item);
        signup.save();//saving to database
